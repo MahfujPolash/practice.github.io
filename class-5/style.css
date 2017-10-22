@@ -1,0 +1,85 @@
+*{margin:0; padding: 0;}
+body{margin:0; padding:0;}
+-webkit-margin-before:0em;
+-webkit-margin-after:0em;
+.header-area{}
+.header-bg{background-image: url(assets/img/header-bg.jpg); width:100%; min-height: 500px; background-repeat:no-repeat; background-size: cover; padding:50px 100px;}
+.header-logo h1{color:#ccc; font-weight: 700; font-family: arial; }
+.header-title{padding-top: 50px;}
+.header-title h4{text-align: right; color:#ccc;}
+.header-title-plus{border: 1px solid #ccc; border-radius: 50%; padding: 5px;}
+.header-menu{}
+.header-menu ul{display: inline;}
+.header-menu ul li{list-style: none; display: inline-block; padding-right: 15px; }
+.header-menu ul li a{text-decoration: none; color:#ccc; font-weight: 700; font-family:sans-serif; }
+.header-menu ul li a:hover{color:aquamarine;}
+.header-social-icon{ margin-top: 80px;}
+.header-social-icon li{display:table; }
+.fa-icon{width:30px; height: 30px; background: #F3704B; margin-top:10px; border-radius: 50%;  }
+.fa-icon:hover{background: #222;}
+.fa-icon a{}
+.fa-icon i{ font-size: 15px; padding: 8px; }
+.fa-icon i:hover{ color:#fff;}
+.header-social-icon fa{border-radius: 50%}
+
+.welcome-text{margin:0 -1em; padding:0; border-bottom: 10px solid #EFEFEF; }
+.welcome-text-img{float: right;}
+.border-bottom-10px{border-bottom: 10px solid #ccc;}
+.border-bottom-15px{border-bottom: 15px solid #ccc;}
+.service-img{margin-top:25px; border-radius: 50%; }
+.service-header{text-align: center;}
+.service-paragraph{}
+
+.testimonial{margin-bottom: 40px;}
+.tab-header{margin-bottom: 50px;}
+
+
+/* tab headers */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style each tab content individually */ 
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
+
+.footer-bg{background:#272530; padding-bottom: 400px; }
+
+.header-menu{}
+.footer-link ul{display: block;}
+.footer-link ul li{list-style: none; display:block; }
+.footer-link ul li a{text-decoration: none; color:#fff; font-weight: 700; font-family:sans-serif; }
+.footer-link ul li a:hover{color:aquamarine;}
+.footer-social-icon{}
+.footer-social-icon li{display:inline-block; }
+.fa-icon{width:30px; height: 30px; background: #F3704B; margin:10px; border-radius: 50%;  }
+.fa-icon:hover{background: #222;}
+.fa-icon a{}
+.fa-icon i{ font-size: 15px; padding: 8px; }
+.fa-icon i:hover{ color:#fff;}
+.footer-social-icon fa{border-radius: 50%}
+
+
